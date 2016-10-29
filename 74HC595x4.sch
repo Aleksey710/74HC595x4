@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:74HC595x4-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -134,9 +135,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 3150 4650 3150
 Wire Wire Line
-	4650 1850 4650 5550
-Connection ~ 4650 1850
-Wire Wire Line
 	4650 4350 5400 4350
 Connection ~ 4650 3150
 Wire Wire Line
@@ -144,9 +142,6 @@ Wire Wire Line
 Connection ~ 4650 4350
 Wire Wire Line
 	4450 5650 5400 5650
-Wire Wire Line
-	4450 1950 4450 5650
-Connection ~ 4450 1950
 Wire Wire Line
 	5400 3250 4450 3250
 Connection ~ 4450 3250
@@ -219,4 +214,10 @@ Connection ~ 3350 2250
 Wire Wire Line
 	3800 1750 3800 1400
 Connection ~ 3350 1750
+Wire Wire Line
+	4450 5650 4450 2050
+Connection ~ 4450 2050
+Wire Wire Line
+	4650 5550 4650 1950
+Connection ~ 4650 1950
 $EndSCHEMATC
